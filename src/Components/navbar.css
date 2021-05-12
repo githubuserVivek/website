@@ -1,0 +1,64 @@
+.logo {
+  height: 110px;
+  width: 110px;
+  cursor: pointer;
+  /* margin: 10px; */
+}
+
+.Nav-main {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  text-decoration: none;
+
+  /* margin-top: 10px; */
+}
+
+.Home,
+.About,
+.Porfolio,
+.Services,
+.Hireme {
+  margin-top: 34px;
+  /* border: 1px solid black; */
+  margin-bottom: 10px;
+  height: 50px;
+  width: 100px;
+  box-shadow: 10px 10px 10px 10px rgb(197, 194, 194);
+
+  /* text-align: center; */
+  /* justify-content: center; */
+  padding-top: 15px;
+  border-radius: 20px;
+  /* background-color: rgb(240, 233, 233); */
+}
+
+.leftRightContent {
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+.Left-side {
+  margin-top: 100px;
+}
+
+.button {
+  background-color: brown;
+}
+
+span {
+  color: rgb(179, 5, 28);
+}
+
+.Right-side img {
+  margin-top: 50px;
+  display: flex;
+  object-fit: cover;
+  transform: rotate(5deg);
+  /* transition: bottom 1s; */
+  height: 550px;
+  width: 500px;
+  bottom: 40%;
+  cursor: pointer;
+}
