@@ -10,6 +10,7 @@
   justify-content: space-around;
   text-align: center;
   text-decoration: none;
+  /* background-color: rgb(123, 125, 126); */
 
   /* margin-top: 10px; */
 }
@@ -33,10 +34,26 @@
   /* background-color: rgb(240, 233, 233); */
 }
 
+.Home:hover {
+  box-shadow: 10px 10px 10px 10px rgb(119, 117, 117);
+}
+.About:hover {
+  box-shadow: 10px 10px 10px 10px rgb(119, 117, 117);
+}
+.Porfolio:hover {
+  box-shadow: 10px 10px 10px 10px rgb(119, 117, 117);
+}
+.Services:hover {
+  box-shadow: 10px 10px 10px 10px rgb(119, 117, 117);
+}
+.Hireme:hover {
+  box-shadow: 10px 10px 10px 10px rgb(119, 117, 117);
+}
 .leftRightContent {
   display: flex;
   justify-content: space-evenly;
   text-decoration: none;
+  background-color: rgba(214, 207, 207, 0.5);
 }
 
 .Left-side {
